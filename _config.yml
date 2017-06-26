@@ -6,15 +6,15 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "en"
-title                    : "Site Title"
+locale                   : "ru"
+title                    : "Пространство смыслов"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : "ZSM"
+description              : "Медиапроект Дмитрия Запольского"
+url                      : "https://spaceofmeanings.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+repository               : "spaceofmeanings/spaceofmeanings.github.io"
+teaser                   : "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -77,22 +77,22 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : ZSM — ПРОСТРАНСТВО СМЫСЛОВ
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
-  uri              :
+  bio              : "Медиапроект Дмитрия Запольского"
+  location         : 
+  email            : babilonmediagroup@gmail.com
+  uri              : 
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         :
-  foursquare       :
+  facebook         : "https://www.facebook.com/pg/spaceofmeanings"
+  foursquare       : 
   github           :
   google_plus      :
   keybase          :
-  instagram        :
+  instagram        : "https://instagram.com/babilon_rw"
   lastfm           :
   linkedin         :
   pinterest        :
@@ -100,11 +100,11 @@ author:
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   steam            :
   tumblr           :
-  twitter          :
+  twitter          : "https://twitter.com/babilon_rw"
   vine             :
   weibo            :
   xing             :
-  youtube          : # "https://youtube.com/c/MichaelRoseDesign"
+  youtube          : "https://youtube.com/c/UC-jewRxm5ohVFjbad2LlgBQ"
 
 
 # Reading Files
@@ -171,10 +171,10 @@ sass:
 
 
 # Outputting
-permalink: /:categories/:title/
+permalink: /:year/:month/:day/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: "Europe/Moscow"
 
 
 # Plugins
@@ -239,8 +239,8 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
-      read_time: true
+      author_profile: false
+      read_time: false
       comments: # true
       share: true
       related: true
