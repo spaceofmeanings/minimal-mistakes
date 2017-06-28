@@ -252,7 +252,7 @@ defaults:
       comments: # true
       share: true
       related: true
-- scope:
+  - scope:
       path: ""
       type: pages
     values:
