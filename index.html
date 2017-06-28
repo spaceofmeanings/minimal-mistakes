@@ -1,17 +1,17 @@
 ---
-layout: archive
+layout: single
 author_profile: true
+title:  "Сегодня в 21:00. *Михаил Крутихин*. Кремль и недра."
+header:
+  video:
+    id: 5MaXGrmfpgc
+    provider: youtube
+
 ---
-<h1>Скоро на канале:</h1>
-<figure class="half">
-	<img src="/assets/images/anons.jpg">
-	<img src="/assets/images/anons.jpg">
-	<!-- <img src="/assets/images/anons.jpg"> -->
-</figure>
+
+{% include feature_row %}
 
 <h1>Свежие выпуски:</h1>
-
-
 {% for post in paginator.posts %}
   {% include archive-single.html %}
 {% endfor %}

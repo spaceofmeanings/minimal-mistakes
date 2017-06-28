@@ -15,6 +15,14 @@ url                      : "https://spaceofmeanings.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "spaceofmeanings/spaceofmeanings.github.io"
 teaser                   : "/assets/images/500x300.png"
+
+subtitle:       "Медиапроект Дмитрия Запольского"
+storage:        https://s3.eu-central-1.amazonaws.com/spaceofmeanings
+lang: ru-RU
+author: ZSM
+copyright:      "&#x2117; &amp; &#xA9; 2017"
+email: babilonmediagroup@gmail.com
+
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -92,7 +100,7 @@ author:
   github           :
   google_plus      :
   keybase          :
-  instagram        : "https://instagram.com/babilon_rw"
+  instagram        : "babilon_rw"
   lastfm           :
   linkedin         :
   pinterest        :
@@ -100,7 +108,7 @@ author:
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   steam            :
   tumblr           :
-  twitter          : "https://twitter.com/babilon_rw"
+  twitter          : "babilon_rw"
   vine             :
   weibo            :
   xing             :
