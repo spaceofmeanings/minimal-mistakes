@@ -1,8 +1,4 @@
---
-layout: single
-title: Подкаст
-permalink: /podcast/
-author_profile: true
---
-
-
+---
+layout: podcast
+permalink: /podcast.rss
+---

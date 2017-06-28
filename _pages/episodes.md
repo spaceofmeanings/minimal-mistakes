@@ -4,7 +4,7 @@ title: "Все передачи можно **слушать** в виде [по�
 permalink: /episodes/
 author_profile: true
 header:
-  overlay_color: "#333"  
+  overlay_color: "#333"
 ---
 
 <div class="grid__wrapper">
