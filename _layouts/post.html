@@ -38,7 +38,9 @@ author_profile: true
 	  {% if page.youtube %}
 	  {% include video id=page.youtube provider="youtube" %}
 	  {% endif %}
-        {{ content }}
+
+          {{ content }}
+	  <div class="notice--primary"><a href="{{ site.storage }}/{{ page.file }}.mp3" class="jouele">{{ page.title }} (аудиоверсия)</a></div>
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
 
       </section>
