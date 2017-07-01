@@ -6,8 +6,8 @@ file: 2017-06-29-kuznetsov
 excerpt: "Гость программы — Борис Кузнецов."
 summary: "Гость программы — Борис Кузнецов."
 duration: "01:04:00"
-length: 61450284
+length: 35861943
 explicit: "no"
 block: "no"
-youtube: "dncaZ4in0pc"
+youtube: "wshBlJoTIrI"
 ---
