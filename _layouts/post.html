@@ -41,6 +41,15 @@ author_profile: true
 
           {{ content }}
 	  <div class="notice--primary"><a href="{{ site.storage }}/{{ page.file }}.mp3" class="jouele">{{ page.title }} (аудиоверсия)</a></div>
+	  <div class="likely likely-big">
+	    <div class="twitter" data-via="babilon_rw">Твитнуть</div>
+	    <div class="facebook">Поделиться</div>
+	    <div class="vkontakte">Поделиться</div>
+	    <div class="telegram">Отправить</div>
+	  </div>
+
+
+	  
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
 
       </section>
