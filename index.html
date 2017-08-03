@@ -1,18 +1,16 @@
 ---
-layout: single
+layout: archive
 author_profile: true
-#title:  "Сегодня в 21:30 (МСК) *«Вскрытие покажет»*."
+title:  " "
 #excerpt: "В программе:  Рамзан Кадыров о легализации гомосексуальных браков; Павел Дуров, Телеграмм и Роскомнадзор."
 header:
+  overlay_image: /assets/images/splash.jpg
   #overlay_color: "#333" 
   #video:
     #id: h2geVTVeYu0
     #provider: youtube
 ---
 
-{% include feature_row %}
-
-<h1>Свежие выпуски:</h1>
 {% for post in paginator.posts %}
   {% include archive-single.html %}
 {% endfor %}

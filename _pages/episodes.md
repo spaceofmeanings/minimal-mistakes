@@ -1,10 +1,12 @@
 ---
-layout: single
+layout: archive
 title: "Все передачи можно **слушать** в виде [подкаста](http://feeds.feedburner.com/zapsm) ([iTunes](https://itunes.apple.com/ru/podcast/пространство-смыслов/id1247153559?mt=2)) и **смотреть** в [YouTube](https://youtube.com/c/UC-jewRxm5ohVFjbad2LlgBQ)."
 permalink: /episodes/
 author_profile: true
 header:
-  overlay_color: "#333"
+  overlay_filter: rgba(0, 0, 255, 0.5)
+  overlay_image: /assets/images/splash.jpg
+  #  overlay_color: "#333"
 ---
 
 <div class="grid__wrapper">
