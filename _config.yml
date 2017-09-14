@@ -12,7 +12,7 @@ title_separator          : "-"
 name                     : "ZSM"
 description              : "Медиапроект Дмитрия Запольского"
 url                      : "http://zapolskiy.tv"
-baseurl                  : #  the subpath of your site, e.g. "/blog"
+baseurl                  : "" #  the subpath of your site, e.g. "/blog"
 repository               : "spaceofmeanings/spaceofmeanings.github.io"
 teaser                   : "/assets/images/500x300.png"
 
