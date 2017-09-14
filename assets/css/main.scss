@@ -5,3 +5,10 @@
 @charset "utf-8";
 
 @import "minimal-mistakes";
+
+.masthead {
+    &__inner-wrap {
+	padding: 0em 1em 0em;
+    }
+}
+
