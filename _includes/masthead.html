@@ -2,9 +2,11 @@
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
-        <a class="site-title" href="{{ '/' | absolute_url }}">
-	  <img src="{{ site.url }}/assets/images/logo.png"
-	       style="height: 70px; margin-right: 1em">
+	<a href="{{ '/' | absolute_url }}">
+	  <img class="site-title" src="{{ site.url }}/assets/images/logo.png"
+	     style="height: 100px; width: auto;">
+	</a>
+	<a class="site-title" href="{{ '/' | absolute_url }}">
 	  {{ site.title }}
 	</a>
         <ul class="visible-links">
