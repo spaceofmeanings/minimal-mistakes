@@ -1,11 +1,12 @@
 ---
 layout: archive
-title: "Все передачи можно **слушать** в виде [подкаста](http://feeds.feedburner.com/zapsm) ([iTunes](https://itunes.apple.com/ru/podcast/пространство-смыслов/id1247153559?mt=2)) и **смотреть** в [YouTube](https://youtube.com/c/UC-jewRxm5ohVFjbad2LlgBQ)."
+title: " "
+#title: "Все передачи можно **слушать** в виде [подкаста](http://feeds.feedburner.com/zapsm) ([iTunes](https://itunes.apple.com/ru/podcast/пространство-смыслов/id1247153559?mt=2)) и **смотреть** в [YouTube](https://youtube.com/c/UC-jewRxm5ohVFjbad2LlgBQ)."
 permalink: /episodes/
 author_profile: true
 header:
-  overlay_filter: 0.5
-  overlay_image: /assets/images/splash.jpg
+  #overlay_filter: 0.5
+  # overlay_image: /assets/images/splash.jpg
   #  overlay_color: "#333"
 ---
 
