@@ -2,6 +2,13 @@
   {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
 {% else %}
   {% assign teaser = site.teaser %}
+  {% assign guest = post.file | split: '-' | last %}
+{% for static_file in site.static_files %}
+    {% assign img = '/assets/images/teasers/' | append: guest | append: '.jpg' %}
+    {% if static_file.path == img  %}
+        {% assign teaser = img %}
+    {% endif %}
+  {% endfor %}
 {% endif %}
 
 {% if post.id %}
